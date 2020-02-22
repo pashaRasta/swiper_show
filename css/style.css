@@ -1,0 +1,214 @@
+body {
+  font-family: 'EB Garamond', serif; }
+
+.swiper-container {
+  width: 100%;
+  height: auto; }
+  .swiper-container .swiper-wrapper .swiper-slide {
+    position: relative;
+    width: auto;
+    height: auto; }
+    .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide {
+      width: 100%;
+      height: 384px;
+      background-image: url(../img_2/size1920/slide_one/slider_bg_1_slide.png);
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 12%;
+        transform: translate(-25%, -50%); }
+        .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text span {
+          line-height: 45px;
+          color: #FFFFFF;
+          font-size: 64px; }
+          .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text span:nth-child(2) {
+            padding: 20px 0; }
+      .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text_three {
+        left: 17% !important; }
+      .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .show_logo {
+        display: flex;
+        width: 591px;
+        height: 237px;
+        background-image: url(../img_2/size1920/slide_one/logo_1_slider.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50%;
+        right: 3%;
+        transform: translate(0, -50%); }
+
+.headline {
+  background: none; }
+
+.headline-with-arrow-wrap:after {
+  display: none; }
+
+.swiper-pagination {
+  width: 100%; }
+
+.swiper-pagination span {
+  width: 18px;
+  height: 18px;
+  border-radius: 0; }
+
+.swiper-pagination-bullet {
+  margin-left: 2%;
+  opacity: 0.3;
+  outline: 3px solid rgba(28, 110, 164, 0.09);
+  outline-offset: 0px; }
+
+.swiper-pagination-bullet-active {
+  opacity: 1; }
+
+.swiper-pagination-bullet:nth-child(1) {
+  background: #fff361; }
+
+.swiper-pagination-bullet:nth-child(2) {
+  background: #ffdaa9; }
+
+.swiper-pagination-bullet:nth-child(3) {
+  background: #ffa829; }
+
+.swiper-pagination-bullet:nth-child(4) {
+  background: #ad5f3e; }
+
+.swiper-pagination-bullet:nth-child(5) {
+  background: #9aeae5; }
+
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+  .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide {
+    height: 256px;
+    background-image: url(../img_2/size1280/slide_one/slider_bg_1_slide.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text {
+      left: 15%; }
+      .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text span {
+        line-height: 38px;
+        font-size: 48px; }
+        .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text span:nth-child(2) {
+          padding: 20px 0; }
+    .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .show_logo {
+      width: 389px;
+      height: 156px;
+      background-image: url(../img_2/size1280/slide_one/logo_1_slider.png); } }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide {
+    height: 204px;
+    background-image: url(../img_2/size1024/slide_one/slider_bg_1_slide.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text {
+      left: 15%; }
+      .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text span {
+        line-height: 32px;
+        font-size: 44px; }
+        .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text span:nth-child(2) {
+          padding: 20px 0; }
+    .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .show_logo {
+      width: 312px;
+      height: 125px;
+      background-image: url(../img_2/size1024/slide_one/logo_1_slider.png); } }
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide {
+    height: 160px;
+    background-image: url(../img_2/size800/slide_one/slider_bg_1_slide.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text {
+      left: 15%; }
+      .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text span {
+        line-height: 14px;
+        font-size: 32px; }
+        .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text span:nth-child(2) {
+          padding: 20px 0; }
+    .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .show_logo {
+      width: 247px;
+      height: 99px;
+      background-image: url(../img_2/size800/slide_one/logo_1_slider.png); } }
+
+@media screen and (min-width: 640px) and (max-width: 800px) {
+  .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide {
+    height: 128px;
+    background-image: url(../img_2/size640/slide_one/slider_bg_1_slide.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+    .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text {
+      left: 15%; }
+      .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text span {
+        line-height: 14px;
+        font-size: 32px; }
+        .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text span:nth-child(2) {
+          padding: 20px 0; }
+    .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .show_logo {
+      width: 202px;
+      height: 81px;
+      background-image: url(../img_2/size640/slide_one/logo_1_slider.png); } }
+
+@media screen and (min-width: 420px) and (max-width: 640px) {
+  .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide {
+    height: 128px;
+    background-image: url(../img_2/size640/slide_one/slider_bg_1_slide.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+    .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text {
+      left: 15%;
+      top: 38%; }
+      .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text span {
+        line-height: 8px;
+        font-size: 23px; }
+        .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text span:nth-child(2) {
+          padding: 20px 0; }
+    .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .show_logo {
+      width: 202px;
+      height: 81px;
+      background-image: url(../img_2/size640/slide_one/logo_1_slider.png); } }
+
+@media only screen and (max-width: 520px) {
+  .swiper-container .swiper-wrapper .swiper-slide .show_logo {
+    display: none !important; } }
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+  .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide {
+    height: 128px;
+    background-image: url(../img_2/size640/slide_one/slider_bg_1_slide.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+    .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text {
+      left: 15%;
+      top: 38%; }
+      .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text span {
+        line-height: 6px;
+        font-size: 20px; }
+      .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text:nth-child(2) {
+        padding: 20px 0; }
+    .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text_three {
+      font-size: 18px !important;
+      left: 21% !important; }
+    .swiper-container .swiper-wrapper .swiper-slide .swipeHeight_slide .slide_text_five {
+      font-size: 18px !important;
+      left: 21% !important; } }
+
+@media only screen and (max-width: 320px) {
+  .swiper-container {
+    display: none; } }
